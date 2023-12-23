@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAidActivity1"
+    android:background="@drawable/img_58"
+    >
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:id="@+id/web"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="282dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Rinse the cut or wound with water and apply pressure with sterile gauze, a bandage, or a clean cloth. If blood soaks through the bandage, put another bandage on top of the first and keep applying pressure. Raise the injured body part to slow bleeding. When bleeding stops, cover the wound with a new, clean bandage. Do not use a tourniquet."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="381dp"
+        android:text="Serious Cut" />
+
+
+</RelativeLayout>
